@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  width: 100vw;
+}
+.logo {
+  margin: 0 0 0 0.5rem;
+}
+
+.navbar a {
+  padding: 1em;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+
+  padding-top: 100%;
+  padding-bottom: 20%;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: white;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-image: url("/imgs/background_code_index_blur.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: white;
+}
+.prof-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0vw 0 0 3vw;
+}
+
+.prof-pic p {
+  margin-top: 5%;
+}
+
+.prof-pic img {
+  width: 10vw;
+  border-radius: 30%;
+}
+.phrase {
+  font-size: 1.75em;
+  flex-basis: 80%;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+
+  margin-top: 5vw;
+  font-size: 4em;
+}
+
+.bio-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bio-cont p {
+  font-size: 1.45rem;
+  padding-top: 3%;
+}
+
+.bio-cont h2 {
+  text-align: center;
+}
+.bio-cont-part1 {
+  margin: 3% 30% 0% 30%;
+}
+
+.bio-cont-part2 {
+  margin: 3% 30% 0% 30%;
+}
+
+.bio-cont-part3 {
+  margin: 3% 30% 0% 30%;
+}
+.sep-imag {
+  background-image: url("/imgs/funny-cat-tie-bow-cute.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100vw;
+  height: 35vh;
+  margin-top: 5%;
+}
+
+.faq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+
+  margin-top: 5vw;
+  font-size: 4em;
+}
+
+.faq-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.faq-cont h2 {
+  text-align: center;
+}
+.faq-cont p {
+  font-size: 1.45rem;
+  padding-top: 3%;
+}
+
+.faq-cont-part1 {
+  margin: 3% 30% 0% 30%;
+}
+.faq-cont-part2 {
+  margin: 2% 30% 0% 30%;
+}
+
+.faq-cont-part2 h3 {
+  margin-top: 3%;
+}
+
+.faq-cont-part3 {
+  margin: 2% 30% 0% 30%;
+}
+
+.proj-img {
+  background-image: url("/imgs/proj-div-blur.jpg");
+  background-attachment: fixed;
+  width: 100vw;
+  height: 30vh;
+  background-position: center;
+  margin-top: 5%;
+  color: white;
+}
+
+.proj-img h3 {
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 2em;
+}
+
+.proj {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin-top: 5%;
+  font-size: 4em;
+}
+.proj-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.proj-cont p {
+  font-size: 1.45rem;
+  padding-top: 3%;
+}
+.proj-cont h2 {
+  text-align: center;
+}
+.proj-cont-1 {
+  margin: 2% 30% 0% 30%;
+}
